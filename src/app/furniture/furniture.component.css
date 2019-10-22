@@ -26,3 +26,9 @@ a{
     height: 20px;
     text-align: right;
 }
+
+.row1-photo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
