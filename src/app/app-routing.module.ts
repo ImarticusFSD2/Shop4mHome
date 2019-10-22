@@ -7,6 +7,7 @@ import { CartComponent } from './cart/cart.component';
 import { FashionComponent } from './fashion/fashion.component';
 import { WishlistComponent } from './wishlist/wishlist.component';
 import { CustomerProfileComponent } from './customer-profile/customer-profile.component';
+import { GroceriesComponent } from './groceries/groceries.component';
 
 const routes: Routes = [
 
@@ -37,6 +38,10 @@ const routes: Routes = [
   {
     path:'myprofile',
     component:CustomerProfileComponent
+  },
+  {
+    path:'groceries',
+    component:GroceriesComponent
   }
 ];
 
