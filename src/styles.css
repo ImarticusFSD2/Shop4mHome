@@ -10,7 +10,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
     line-height: 1.6;
 }
 .card{
-    margin: 20px;
+    margin: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .card-header{
@@ -24,5 +24,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
         transition: all 1s ease-out;
 }
 .h5,h5{
-    font-size: 1rem;
+    font-size: 0.9rem;
+    font-weight: 600;
 }
