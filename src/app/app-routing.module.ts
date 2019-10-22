@@ -11,6 +11,7 @@ import { CustomerProfileComponent } from './customer-profile/customer-profile.co
 import { FurnitureComponent } from './furniture/furniture.component';
 
 import { GroceriesComponent } from './groceries/groceries.component';
+import { SportsComponent } from './sports/sports.component';
 
 
 const routes: Routes = [
@@ -52,6 +53,10 @@ const routes: Routes = [
     path:'groceries',
     component:GroceriesComponent
 
+  },
+  {
+    path:'sports',
+    component:SportsComponent
   }
 ];
 
