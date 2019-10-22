@@ -23,3 +23,6 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
         transform:scale(1.2);
         transition: all 1s ease-out;
 }
+.h5,h5{
+    font-size: 1rem;
+}
