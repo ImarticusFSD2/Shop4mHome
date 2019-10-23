@@ -16,6 +16,14 @@ import { AdminComponent } from './admin/admin.component';
 import { FurnitureComponent } from './furniture/furniture.component';
 import { SportsComponent } from './sports/sports.component';
 import { GroceriesComponent } from './groceries/groceries.component';
+import { BadmintonShuttlesComponent } from './sports/badminton-shuttles/badminton-shuttles.component';
+import { BadmintonRacquetsComponent } from './sports/badminton-racquets/badminton-racquets.component';
+import { CricketBatComponent } from './sports/cricket-bat/cricket-bat.component';
+import { CricketKitsComponent } from './sports/cricket-kits/cricket-kits.component';
+import { CyclesComponent } from './sports/cycles/cycles.component';
+import { CyclingAccessoriesComponent } from './sports/cycling-accessories/cycling-accessories.component';
+import { TennisRacquetsComponent } from './sports/tennis-racquets/tennis-racquets.component';
+import { TennisKitsComponent } from './sports/tennis-kits/tennis-kits.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +40,15 @@ import { GroceriesComponent } from './groceries/groceries.component';
     AdminComponent,
     FurnitureComponent,
     SportsComponent,
-    GroceriesComponent
+    GroceriesComponent,
+    BadmintonShuttlesComponent,
+    BadmintonRacquetsComponent,
+    CricketBatComponent,
+    CricketKitsComponent,
+    CyclesComponent,
+    CyclingAccessoriesComponent,
+    TennisRacquetsComponent,
+    TennisKitsComponent
   ],
   imports: [
     BrowserModule,
