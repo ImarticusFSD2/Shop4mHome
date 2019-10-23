@@ -8,6 +8,12 @@ import { FashionComponent } from './fashion/fashion.component';
 import { WishlistComponent } from './wishlist/wishlist.component';
 import { CustomerProfileComponent } from './customer-profile/customer-profile.component';
 
+import { FurnitureComponent } from './furniture/furniture.component';
+
+import { GroceriesComponent } from './groceries/groceries.component';
+import { SportsComponent } from './sports/sports.component';
+
+
 const routes: Routes = [
 
   {
@@ -37,6 +43,20 @@ const routes: Routes = [
   {
     path:'myprofile',
     component:CustomerProfileComponent
+  },
+  {
+
+    path:'furniture',
+    component:FurnitureComponent
+  },
+{
+    path:'groceries',
+    component:GroceriesComponent
+
+  },
+  {
+    path:'sports',
+    component:SportsComponent
   }
 ];
 
