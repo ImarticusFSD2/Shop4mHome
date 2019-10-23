@@ -16,6 +16,13 @@ import { AdminComponent } from './admin/admin.component';
 import { FurnitureComponent } from './furniture/furniture.component';
 import { SportsComponent } from './sports/sports.component';
 import { GroceriesComponent } from './groceries/groceries.component';
+import { SamsungComponent } from './electronics/samsung/samsung.component';
+import { MiComponent } from './electronics/mi/mi.component';
+import { HpComponent } from './electronics/hp/hp.component';
+import { DelComponent } from './electronics/del/del.component';
+import { TvComponent } from './electronics/tv/tv.component';
+import { FridgeComponent } from './electronics/fridge/fridge.component';
+import { WmComponent } from './electronics/wm/wm.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +39,14 @@ import { GroceriesComponent } from './groceries/groceries.component';
     AdminComponent,
     FurnitureComponent,
     SportsComponent,
-    GroceriesComponent
+    GroceriesComponent,
+    SamsungComponent,
+    MiComponent,
+    HpComponent,
+    DelComponent,
+    TvComponent,
+    FridgeComponent,
+    WmComponent
   ],
   imports: [
     BrowserModule,
