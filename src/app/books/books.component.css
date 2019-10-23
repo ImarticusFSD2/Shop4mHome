@@ -1,0 +1,49 @@
+.side{
+    width:13rem;
+    height:51rem;
+    float: left;
+}
+
+
+img{
+    width:90%;
+    height: 17rem;
+   
+}
+span{
+    height: 1rem;
+    width: 2.8rem;
+   
+    
+}
+#col:hover{
+    background-color:rgba(82, 6, 82, 0.8);
+    padding: 0px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.45);
+}
+.col-md-3:hover{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.45);
+
+}
+.ads:hover img{
+        -ms-transform:scale(1);
+        -webkit-transform:scale(1);
+        transform:scale(1.05);
+        transition: all 1s ease-out;
+}
+a{
+    text-decoration: none;
+}
+b
+{
+ font-size: 1.5rem;   
+}
+.day{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+h4{
+    color:black;
+    font-weight: 500;
+}
