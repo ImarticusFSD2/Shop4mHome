@@ -87,7 +87,17 @@ import { WmComponent } from './electronics/wm/wm.component';
     DelComponent,
     TvComponent,
     FridgeComponent,
-    WmComponent
+    WmComponent,
+    CosmeticsComponent,
+    MenClothingComponent,
+    MenAccessoriesComponent,
+    MenFootwearComponent,
+    WomenFootwearComponent,
+    WomenAccessoriesComponent,
+    WomenClothingComponent,
+    KidsClothingComponent,
+    KidsAccessoriesComponent,
+    KidsFootwearComponent
 
 
   ],
