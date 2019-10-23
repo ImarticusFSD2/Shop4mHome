@@ -28,6 +28,20 @@ import { AdminComponent } from './admin/admin.component';
 import { FurnitureComponent } from './furniture/furniture.component';
 import { SportsComponent } from './sports/sports.component';
 import { GroceriesComponent } from './groceries/groceries.component';
+
+import { DiningTableComponent } from './furniture/dining-table/dining-table.component';
+import { StudyTableComponent } from './furniture/study-table/study-table.component';
+import { SingleBedComponent } from './furniture/single-bed/single-bed.component';
+import { DoubleBedComponent } from './furniture/double-bed/double-bed.component';
+import { HomeChairComponent } from './furniture/home-chair/home-chair.component';
+import { OfficeChairComponent } from './furniture/office-chair/office-chair.component';
+
+import { SoapComponent } from './groceries/soap/soap.component';
+import { ShampoosComponent } from './groceries/shampoos/shampoos.component';
+import { SnacksComponent } from './groceries/snacks/snacks.component';
+import { PackedfoodComponent } from './groceries/packedfood/packedfood.component';
+import { DetergentsComponent } from './groceries/detergents/detergents.component';
+import { RepellantsComponent } from './groceries/repellants/repellants.component';
 import { SamsungComponent } from './electronics/samsung/samsung.component';
 import { MiComponent } from './electronics/mi/mi.component';
 import { HpComponent } from './electronics/hp/hp.component';
@@ -35,6 +49,7 @@ import { DelComponent } from './electronics/del/del.component';
 import { TvComponent } from './electronics/tv/tv.component';
 import { FridgeComponent } from './electronics/fridge/fridge.component';
 import { WmComponent } from './electronics/wm/wm.component';
+
 
 @NgModule({
   declarations: [
@@ -52,6 +67,20 @@ import { WmComponent } from './electronics/wm/wm.component';
     FurnitureComponent,
     SportsComponent,
     GroceriesComponent,
+
+    DiningTableComponent,
+    StudyTableComponent,
+    SingleBedComponent,
+    DoubleBedComponent,
+    HomeChairComponent,
+    OfficeChairComponent,
+
+    SoapComponent,
+    ShampoosComponent,
+    SnacksComponent,
+    PackedfoodComponent,
+    DetergentsComponent,
+    RepellantsComponent,
     SamsungComponent,
     MiComponent,
     HpComponent,
@@ -59,6 +88,8 @@ import { WmComponent } from './electronics/wm/wm.component';
     TvComponent,
     FridgeComponent,
     WmComponent
+
+
   ],
   imports: [
     BrowserModule,
