@@ -8,7 +8,19 @@ import { CategoryComponent } from './category/category.component';
 import { ElectronicsComponent } from './electronics/electronics.component';
 import { BooksComponent } from './books/books.component';
 import { CartComponent } from './cart/cart.component';
+
 import { FashionComponent } from './fashion/fashion.component';
+import { MenAccessoriesComponent } from './fashion/men-accessories/men-accessories.component';
+import { MenFootwearComponent } from './fashion/men-footwear/men-footwear.component';
+import { MenClothingComponent } from './fashion/men-clothing/men-clothing.component';
+import { WomenClothingComponent } from './fashion/women-clothing/women-clothing.component';
+import { WomenAccessoriesComponent } from './fashion/women-accessories/women-accessories.component';
+import { WomenFootwearComponent } from './fashion/women-footwear/women-footwear.component';
+import { KidsFootwearComponent } from './fashion/kids-footwear/kids-footwear.component';
+import { KidsClothingComponent } from './fashion/kids-clothing/kids-clothing.component';
+import { KidsAccessoriesComponent } from './fashion/kids-accessories/kids-accessories.component';
+import { CosmeticsComponent } from './fashion/cosmetics/cosmetics.component';
+
 import {HomeComponent} from './home/home.component';
 import{WishlistComponent} from './wishlist/wishlist.component';
 import{CustomerProfileComponent} from './customer-profile/customer-profile.component';
