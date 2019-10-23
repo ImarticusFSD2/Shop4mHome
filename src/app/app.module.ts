@@ -8,7 +8,6 @@ import { CategoryComponent } from './category/category.component';
 import { ElectronicsComponent } from './electronics/electronics.component';
 import { BooksComponent } from './books/books.component';
 import { CartComponent } from './cart/cart.component';
-
 import { FashionComponent } from './fashion/fashion.component';
 import { MenAccessoriesComponent } from './fashion/men-accessories/men-accessories.component';
 import { MenFootwearComponent } from './fashion/men-footwear/men-footwear.component';
@@ -20,22 +19,19 @@ import { KidsFootwearComponent } from './fashion/kids-footwear/kids-footwear.com
 import { KidsClothingComponent } from './fashion/kids-clothing/kids-clothing.component';
 import { KidsAccessoriesComponent } from './fashion/kids-accessories/kids-accessories.component';
 import { CosmeticsComponent } from './fashion/cosmetics/cosmetics.component';
-
 import {HomeComponent} from './home/home.component';
-import{WishlistComponent} from './wishlist/wishlist.component';
-import{CustomerProfileComponent} from './customer-profile/customer-profile.component';
+import {WishlistComponent} from './wishlist/wishlist.component';
+import {CustomerProfileComponent} from './customer-profile/customer-profile.component';
 import { AdminComponent } from './admin/admin.component';
 import { FurnitureComponent } from './furniture/furniture.component';
 import { SportsComponent } from './sports/sports.component';
 import { GroceriesComponent } from './groceries/groceries.component';
-
 import { DiningTableComponent } from './furniture/dining-table/dining-table.component';
 import { StudyTableComponent } from './furniture/study-table/study-table.component';
 import { SingleBedComponent } from './furniture/single-bed/single-bed.component';
 import { DoubleBedComponent } from './furniture/double-bed/double-bed.component';
 import { HomeChairComponent } from './furniture/home-chair/home-chair.component';
 import { OfficeChairComponent } from './furniture/office-chair/office-chair.component';
-
 import { SoapComponent } from './groceries/soap/soap.component';
 import { ShampoosComponent } from './groceries/shampoos/shampoos.component';
 import { SnacksComponent } from './groceries/snacks/snacks.component';
@@ -67,14 +63,12 @@ import { WmComponent } from './electronics/wm/wm.component';
     FurnitureComponent,
     SportsComponent,
     GroceriesComponent,
-
     DiningTableComponent,
     StudyTableComponent,
     SingleBedComponent,
     DoubleBedComponent,
     HomeChairComponent,
     OfficeChairComponent,
-
     SoapComponent,
     ShampoosComponent,
     SnacksComponent,
@@ -98,8 +92,6 @@ import { WmComponent } from './electronics/wm/wm.component';
     KidsClothingComponent,
     KidsAccessoriesComponent,
     KidsFootwearComponent
-
-
   ],
   imports: [
     BrowserModule,
