@@ -2,8 +2,8 @@
 
 .row1-photo{
     
-    max-width: 240px;
-    max-height: 250px;
+    max-width: 200px;
+    max-height: 200px;
 }
 
 
@@ -23,12 +23,20 @@ a{
 }
 
 .badge{
-    height: 20px;
+    height: 18px;
+   
     text-align: right;
 }
 
-.row1-photo{
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+
+
+
+#one{
+    width: 250px;
+    float: left;
+}
+
+h5{
+    color: black;
+    font-size: 100%;
 }

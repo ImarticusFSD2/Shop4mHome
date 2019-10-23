@@ -16,6 +16,12 @@ import { AdminComponent } from './admin/admin.component';
 import { FurnitureComponent } from './furniture/furniture.component';
 import { SportsComponent } from './sports/sports.component';
 import { GroceriesComponent } from './groceries/groceries.component';
+import { DiningTableComponent } from './furniture/dining-table/dining-table.component';
+import { StudyTableComponent } from './furniture/study-table/study-table.component';
+import { SingleBedComponent } from './furniture/single-bed/single-bed.component';
+import { DoubleBedComponent } from './furniture/double-bed/double-bed.component';
+import { HomeChairComponent } from './furniture/home-chair/home-chair.component';
+import { OfficeChairComponent } from './furniture/office-chair/office-chair.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +38,13 @@ import { GroceriesComponent } from './groceries/groceries.component';
     AdminComponent,
     FurnitureComponent,
     SportsComponent,
-    GroceriesComponent
+    GroceriesComponent,
+    DiningTableComponent,
+    StudyTableComponent,
+    SingleBedComponent,
+    DoubleBedComponent,
+    HomeChairComponent,
+    OfficeChairComponent
   ],
   imports: [
     BrowserModule,
