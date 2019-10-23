@@ -24,6 +24,13 @@ import { CyclesComponent } from './sports/cycles/cycles.component';
 import { CyclingAccessoriesComponent } from './sports/cycling-accessories/cycling-accessories.component';
 import { TennisRacquetsComponent } from './sports/tennis-racquets/tennis-racquets.component';
 import { TennisKitsComponent } from './sports/tennis-kits/tennis-kits.component';
+import { SamsungComponent } from './electronics/samsung/samsung.component';
+import { MiComponent } from './electronics/mi/mi.component';
+import { HpComponent } from './electronics/hp/hp.component';
+import { DelComponent } from './electronics/del/del.component';
+import { TvComponent } from './electronics/tv/tv.component';
+import { FridgeComponent } from './electronics/fridge/fridge.component';
+import { WmComponent } from './electronics/wm/wm.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +48,7 @@ import { TennisKitsComponent } from './sports/tennis-kits/tennis-kits.component'
     FurnitureComponent,
     SportsComponent,
     GroceriesComponent,
+
     BadmintonShuttlesComponent,
     BadmintonRacquetsComponent,
     CricketBatComponent,
@@ -49,6 +57,15 @@ import { TennisKitsComponent } from './sports/tennis-kits/tennis-kits.component'
     CyclingAccessoriesComponent,
     TennisRacquetsComponent,
     TennisKitsComponent
+
+    SamsungComponent,
+    MiComponent,
+    HpComponent,
+    DelComponent,
+    TvComponent,
+    FridgeComponent,
+    WmComponent
+
   ],
   imports: [
     BrowserModule,
