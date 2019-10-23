@@ -16,6 +16,12 @@ import { AdminComponent } from './admin/admin.component';
 import { FurnitureComponent } from './furniture/furniture.component';
 import { SportsComponent } from './sports/sports.component';
 import { GroceriesComponent } from './groceries/groceries.component';
+import { SoapComponent } from './groceries/soap/soap.component';
+import { ShampoosComponent } from './groceries/shampoos/shampoos.component';
+import { SnacksComponent } from './groceries/snacks/snacks.component';
+import { PackedfoodComponent } from './groceries/packedfood/packedfood.component';
+import { DetergentsComponent } from './groceries/detergents/detergents.component';
+import { RepellantsComponent } from './groceries/repellants/repellants.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +38,13 @@ import { GroceriesComponent } from './groceries/groceries.component';
     AdminComponent,
     FurnitureComponent,
     SportsComponent,
-    GroceriesComponent
+    GroceriesComponent,
+    SoapComponent,
+    ShampoosComponent,
+    SnacksComponent,
+    PackedfoodComponent,
+    DetergentsComponent,
+    RepellantsComponent
   ],
   imports: [
     BrowserModule,
