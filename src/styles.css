@@ -10,8 +10,8 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
     line-height: 1.6;
 }
 .card{
-    margin: 5px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(22, 22, 22, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
 }
 .card-header{
     background-color: #fff;
