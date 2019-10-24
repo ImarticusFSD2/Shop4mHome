@@ -57,7 +57,7 @@ import { TvComponent } from './electronics/tv/tv.component';
 import { FridgeComponent } from './electronics/fridge/fridge.component';
 import { WmComponent } from './electronics/wm/wm.component';
 
-import { SamsungComponent } from './electronics/samsung/samsung.component';
+
 
 import { FooterComponent } from './footer/footer.component';
 
