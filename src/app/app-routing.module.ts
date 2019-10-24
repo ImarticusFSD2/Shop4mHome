@@ -55,6 +55,7 @@ import { CricketBatComponent } from './sports/cricket-bat/cricket-bat.component'
 import { CricketKitsComponent } from './sports/cricket-kits/cricket-kits.component';
 import { CyclesComponent } from './sports/cycles/cycles.component';
 import { CyclingAccessoriesComponent } from './sports/cycling-accessories/cycling-accessories.component';
+import { OrderComponent } from './order/order.component';
 
 
 
@@ -174,7 +175,9 @@ const routes: Routes = [
     path:'furniture',
     component:FurnitureComponent,
     children: [
-      {path: 'dining-table', component: DiningTableComponent},
+      {path: 'dining-table', component: DiningTableComponent,
+    children: [ {path: 'dt-order', redirectTo: '/order', pathMatch:'full'}]
+    },
       {path: 'double-bed', component: DoubleBedComponent},
       {path: 'home-chair', component: HomeChairComponent},
       {path: 'office-chair', component: OfficeChairComponent},
@@ -184,6 +187,12 @@ const routes: Routes = [
      
     ]
   },
+  {
+    path:'order',
+    component: OrderComponent,
+    children: [ {path: 'buy', redirectTo: '/cart', pathMatch:'full'}]
+  },
+
 {
     path:'groceries',
     component:GroceriesComponent,
