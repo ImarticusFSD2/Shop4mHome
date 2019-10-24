@@ -1,62 +1,87 @@
 
-<section>
-        <div class="container-fluid" style="padding: 15px 0px;">
-           <div class="row no-gutters" style="height:100%">
-            <div class="col-md-2">
-                    <div class="card" style="width: 18rem;height:37rem;box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4)">
-                            <div class="card-header" style="background-color:#3f93e8">
-                              Filter
+                <div class="card sidenav-card">
+                  <div class="card-header">
+                    Filter
+                  </div>
+                  <ul class="list-group list-group-flush ">
+                    <!-- <li class="list-group-item"><a routerLink="#" id="drop">Men</a></li>  -->
+                    <!-- <li class="list-group-item"> <button class="dropdown-btn">Men
+                          <i class="fa fa-caret-down"></i>
+                        </button></li> -->
+                        <li class="list-group-item">
+                        <div>
+                              <div role="button" id="dropdownMenuLink" data-toggle="collapse" data-target="#collapseExample" aria-haspopup="true" aria-expanded="false">
+                                  Women
+                              </div>
+                            
+                              <div class="collapse" aria-labelledby="dropdownMenuLink" id="collapseExample">
+                                <a routerLink="women-clothing" class="list-group-item">Clothing</a>
+                                <a routerLink="women-accessories" class="list-group-item">Accessories</a>
+                                <a routerLink="women-footwear" class="list-group-item">Footwear</a>
+                              </div>
                             </div>
-                            <ul class="list-group list-group-flush">
-                              <!-- <li class="list-group-item"><a routerLink="#" id="drop">Men</a></li>  -->
-                              <!-- <li class="list-group-item"> <button class="dropdown-btn">Men
-                                    <i class="fa fa-caret-down"></i>
-                                  </button></li> -->
-                                  <li class="list-group-item">
-                                  <div>
-                                        <div role="button" id="dropdownMenuLink" data-toggle="collapse" data-target="#collapseExample" aria-haspopup="true" aria-expanded="false">
-                                         Man
-                                        </div>
-                                      
-                                        <div class="collapse" aria-labelledby="dropdownMenuLink" id="collapseExample">
-                                          <a  href="#" class="list-group-item">Clothing</a>
-                                          <a  href="#" class="list-group-item">Accessories</a>
-                                         
-                                        </div>
-                                      </div>
-                                    </li> 
-                              <li class="list-group-item">
-                                    <div>
-                                            <div role="button" id="dropdownMenuLink1" data-toggle="collapse" data-target="#collapseExample" aria-haspopup="true" aria-expanded="false">
-                                             Women
-                                            </div>
-                                          
-                                            <div class="collapse" aria-labelledby="dropdownMenuLink1" id="collapseExample">
-                                              <a  href="#" class="list-group-item">Clothing</a>
-                                              <a  href="#" class="list-group-item">Accessories</a>
-                                              <a  href="#" class="list-group-item">Cosmetics</a>
-                                            </div>
-                                          </div>
-                              </li>
-                              <li class="list-group-item">
-                                    <div>
-                                            <div role="button" id="dropdownMenuLink2" data-toggle="collapse" data-target="#collapseExample" aria-haspopup="true" aria-expanded="false">
-                                             Kids
-                                            </div>
-                                          
-                                            <div class="collapse" aria-labelledby="dropdownMenuLink2" id="collapseExample">
-                                              <a  href="#" class="list-group-item">Clothing</a>
-                                              <a  href="#" class="list-group-item">Accessories</a>
-                                             
-                                            </div>
-                                          </div>
-                              </li>
-                            </ul>
-                          </div>
-            </div>
-            <div class="col-md-10">
-                    <router-outlet></router-outlet>
-            </div>
-          </div> 
-        </div>
-    </section>
+                          </li> 
+                    <li class="list-group-item">
+                          <div>
+                                  <div role="button" id="dropdownMenuLink" data-toggle="collapse" data-target="#collapseExample" aria-haspopup="true" aria-expanded="false">
+                                   Men
+                                  </div>
+                                
+                                  <div class="collapse" aria-labelledby="dropdownMenuLink" id="collapseExample">
+                                    <a  routerLink="men-clothing" class="list-group-item">Clothing</a>
+                                    <a  routerLink="men-accessories" class="list-group-item">Accessories</a>
+                                  
+                                    <a  routerLink="men-footwear" class="list-group-item">Footwear</a>
+                                  </div>
+                                </div>
+                    </li>
+                    <li class="list-group-item">
+                          <div>
+                                  <div role="button" id="dropdownMenuLink" data-toggle="collapse" data-target="#collapseExample" aria-haspopup="true" aria-expanded="false">
+                                   Kids
+                                  </div>
+                                
+                                  <div class="collapse" aria-labelledby="dropdownMenuLink" id="collapseExample">
+                                    <a  routerLink="kids-clothing" class="list-group-item">Clothing</a>
+                                    <a  routerLink="kids-accessories" class="list-group-item">Accessories</a>
+                                    <a  routerLink="kids-footwear" class="list-group-item">Footwear</a>
+                                  </div>
+                                </div>
+                    </li>
+                    <li class="nav-item">
+                     <div role="button"><a  routerLink="cosmetics" class="list-group-item">
+                       <span style="color:#000">Cosmetics</span></a></div>
+                    </li>
+                  </ul>
+                </div>
+  <!-- </div> -->
+ <!-- <div class="col-md-10">  -->
+<div class="card">
+  
+      
+  <router-outlet></router-outlet>
+<!-- ------------------------WOMEN CLOTHING-----------------------        -->
+     
+<!-- ---------------------MEN CLOTHING--------------------------- -->
+     
+<!-- ---------------------WOMEN ACCESSORIES--------------------------- -->
+      
+<!-- ---------------------KIDS CLOTHING--------------------------- -->
+     
+<!-- ---------------------COSMETICS--------------------------- -->
+
+<!-- ---------------------MEN ACCESSORIES--------------------------- -->
+
+<!-- ---------------------KIDS ACCESSORIES--------------------------- -->
+
+<!-- ---------------------MEN FOOTWEAR--------------------------- -->
+
+<!-- ---------------------WOMEN FOOTWEAR--------------------------- -->
+
+<!-- ---------------------KIDS FOOTWEAR--------------------------- -->
+</div>
+  
+
+ 
+
+
