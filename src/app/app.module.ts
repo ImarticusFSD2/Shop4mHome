@@ -46,6 +46,7 @@ import { TvComponent } from './electronics/tv/tv.component';
 import { FridgeComponent } from './electronics/fridge/fridge.component';
 import { WmComponent } from './electronics/wm/wm.component';
 import { FooterComponent } from './footer/footer.component';
+import { OrderComponent } from './order/order.component';
 
 
 @NgModule({
@@ -93,7 +94,8 @@ import { FooterComponent } from './footer/footer.component';
     KidsClothingComponent,
     KidsAccessoriesComponent,
     KidsFootwearComponent,
-    FooterComponent
+    FooterComponent,
+    OrderComponent
   ],
   imports: [
     BrowserModule,
