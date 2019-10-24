@@ -1,4 +1,4 @@
-import { NgModule, Component } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { ElectronicsComponent } from './electronics/electronics.component';
 import { HomeComponent } from './home/home.component';
@@ -25,6 +25,8 @@ import { FurnitureComponent } from './furniture/furniture.component';
 import { GroceriesComponent } from './groceries/groceries.component';
 import { SportsComponent } from './sports/sports.component';
 
+
+
 import { DoubleBedComponent } from './furniture/double-bed/double-bed.component';
 import { DiningTableComponent } from './furniture/dining-table/dining-table.component';
 import { HomeChairComponent } from './furniture/home-chair/home-chair.component';
@@ -38,6 +40,7 @@ import { SnacksComponent } from './groceries/snacks/snacks.component';
 import { PackedfoodComponent } from './groceries/packedfood/packedfood.component';
 import { DetergentsComponent } from './groceries/detergents/detergents.component';
 import { RepellantsComponent } from './groceries/repellants/repellants.component';
+
 import { SamsungComponent } from './electronics/samsung/samsung.component';
 import { MiComponent } from './electronics/mi/mi.component';
 import { HpComponent } from './electronics/hp/hp.component';
@@ -45,6 +48,15 @@ import { DelComponent } from './electronics/del/del.component';
 import { FridgeComponent } from './electronics/fridge/fridge.component';
 import { WmComponent } from './electronics/wm/wm.component';
 import { TvComponent } from './electronics/tv/tv.component';
+
+import { BadmintonRacquetsComponent } from './sports/badminton-racquets/badminton-racquets.component';
+import { BadmintonShuttlesComponent } from './sports/badminton-shuttles/badminton-shuttles.component';
+import { CricketBatComponent } from './sports/cricket-bat/cricket-bat.component';
+import { CricketKitsComponent } from './sports/cricket-kits/cricket-kits.component';
+import { CyclesComponent } from './sports/cycles/cycles.component';
+import { CyclingAccessoriesComponent } from './sports/cycling-accessories/cycling-accessories.component';
+
+
 
 
 
@@ -54,6 +66,10 @@ const routes: Routes = [
     path:'',
     component:HomeComponent
   },
+  // {
+  //   path:'samsung',
+  //   component:ElectronicsComponent
+  // },
   {
     path:'electronics',
     component:ElectronicsComponent,
@@ -85,10 +101,11 @@ const routes: Routes = [
       {
         path:'wm',
         component:WmComponent
-      },
-    ]
-  },
-  {
+       },
+  
+      ]
+    },
+       {
     path:'cart',
     component:CartComponent
   },
@@ -181,7 +198,34 @@ const routes: Routes = [
   },
   {
     path:'sports',
-    component:SportsComponent
+    component:SportsComponent,
+    children:[
+      {
+        path:'badminton-racquets',
+        component:BadmintonRacquetsComponent
+      },
+      {
+        path:'badminton-shuttles',
+        component:BadmintonShuttlesComponent
+      },
+      {
+        path:'cricket-bat',
+        component:CricketBatComponent
+      },
+      {
+        path:'cricket-kits',
+        component:CricketKitsComponent
+      },
+      {
+        path:'cycles',
+        component:CyclesComponent
+      },
+      {
+        path:'cycling-accessories',
+        component:CyclingAccessoriesComponent
+      },
+    ]
+    
   }
 ];
 

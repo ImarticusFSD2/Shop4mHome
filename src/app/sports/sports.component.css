@@ -1,4 +1,21 @@
 
-.col-md-3:hover{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+#side-nav{
+    width: 250px;
+    float: left;
+    position: -webkit-sticky; /* Safari & IE */
+position: sticky;
+top: 100px;
 }
+.h5{
+    text-decoration: none;
+    font-size: 25px;
+}
+.rate{
+     font-size: 30px;
+    font-weight: bolder;
+}
+
+  .card-body{
+      cursor: pointer;
+  }
+ 
