@@ -1,12 +1,4 @@
 
-#side-nav{
-    width: 250px;
-    float: left;
-    position: -webkit-sticky; /* Safari & IE */
-position: sticky;
-top: 100px;
-}
-
 
 .row1-photo{
     
@@ -52,8 +44,3 @@ h5{
     color: black;
     font-size: 100%;
 }
-.offer{
-    text-decoration-line: line-through;
-}
-
-

@@ -26,6 +26,16 @@ import { AdminComponent } from './admin/admin.component';
 import { FurnitureComponent } from './furniture/furniture.component';
 import { SportsComponent } from './sports/sports.component';
 import { GroceriesComponent } from './groceries/groceries.component';
+
+import { BadmintonShuttlesComponent } from './sports/badminton-shuttles/badminton-shuttles.component';
+import { BadmintonRacquetsComponent } from './sports/badminton-racquets/badminton-racquets.component';
+import { CricketBatComponent } from './sports/cricket-bat/cricket-bat.component';
+import { CricketKitsComponent } from './sports/cricket-kits/cricket-kits.component';
+import { CyclesComponent } from './sports/cycles/cycles.component';
+import { CyclingAccessoriesComponent } from './sports/cycling-accessories/cycling-accessories.component';
+
+
+
 import { DiningTableComponent } from './furniture/dining-table/dining-table.component';
 import { StudyTableComponent } from './furniture/study-table/study-table.component';
 import { SingleBedComponent } from './furniture/single-bed/single-bed.component';
@@ -39,14 +49,19 @@ import { PackedfoodComponent } from './groceries/packedfood/packedfood.component
 import { DetergentsComponent } from './groceries/detergents/detergents.component';
 import { RepellantsComponent } from './groceries/repellants/repellants.component';
 import { SamsungComponent } from './electronics/samsung/samsung.component';
+
 import { MiComponent } from './electronics/mi/mi.component';
 import { HpComponent } from './electronics/hp/hp.component';
 import { DelComponent } from './electronics/del/del.component';
 import { TvComponent } from './electronics/tv/tv.component';
 import { FridgeComponent } from './electronics/fridge/fridge.component';
 import { WmComponent } from './electronics/wm/wm.component';
+
+
+
 import { FooterComponent } from './footer/footer.component';
 import { OrderComponent } from './order/order.component';
+
 
 
 @NgModule({
@@ -65,6 +80,17 @@ import { OrderComponent } from './order/order.component';
     FurnitureComponent,
     SportsComponent,
     GroceriesComponent,
+
+
+    BadmintonShuttlesComponent,
+    BadmintonRacquetsComponent,
+    CricketBatComponent,
+    CricketKitsComponent,
+    CyclesComponent,
+    CyclingAccessoriesComponent,
+    
+
+
     DiningTableComponent,
     StudyTableComponent,
     SingleBedComponent,
@@ -77,12 +103,17 @@ import { OrderComponent } from './order/order.component';
     PackedfoodComponent,
     DetergentsComponent,
     RepellantsComponent,
+
     SamsungComponent,
     MiComponent,
     HpComponent,
     DelComponent,
     TvComponent,
     FridgeComponent,
+
+
+
+
     WmComponent,
     CosmeticsComponent,
     MenClothingComponent,
@@ -94,8 +125,9 @@ import { OrderComponent } from './order/order.component';
     KidsClothingComponent,
     KidsAccessoriesComponent,
     KidsFootwearComponent,
+
     FooterComponent,
-    OrderComponent
+    OrderComponent,
   ],
   imports: [
     BrowserModule,
