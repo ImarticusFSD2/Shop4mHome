@@ -48,7 +48,6 @@ import { SnacksComponent } from './groceries/snacks/snacks.component';
 import { PackedfoodComponent } from './groceries/packedfood/packedfood.component';
 import { DetergentsComponent } from './groceries/detergents/detergents.component';
 import { RepellantsComponent } from './groceries/repellants/repellants.component';
-import { SamsungComponent } from './electronics/samsung/samsung.component';
 
 import { MiComponent } from './electronics/mi/mi.component';
 import { HpComponent } from './electronics/hp/hp.component';
@@ -73,6 +72,7 @@ import { FurnitureCartComponent } from './furniture/furniture-cart/furniture-car
 import { FashionCartComponent } from './fashion/fashion-cart/fashion-cart.component';
 import { ElecOrderComponent } from './electronics/elec-order/elec-order.component';
 import { ElecCartComponent } from './electronics/elec-cart/elec-cart.component';
+import { SamsungComponent } from './electronics/samsung/samsung.component';
 
 
 
@@ -117,7 +117,8 @@ import { ElecCartComponent } from './electronics/elec-cart/elec-cart.component';
     PackedfoodComponent,
     DetergentsComponent,
     RepellantsComponent,
-
+    
+    
     SamsungComponent,
     MiComponent,
     HpComponent,
