@@ -15,9 +15,7 @@
   #feature1:hover ~ .img_order {
     background-image: url('/assets/books/backfic1.jpeg');
 }
-#btn_order{
- 
-}
+
 .rate{
   font-weight: bolder;
   font-size: 25px;
@@ -49,4 +47,15 @@ font-size: 12px;
   font-size: 12px;
   font-family: 'Times New Roman', Times, serif;
   color: gray;
+}
+.btn .btn-primary{
+  margin-left: 50%; 
+ }
+ #btn_order{
+  margin-left: 18%;
+ }
+ #maincon{
+  height: 400px;
+  width: 300px;
+  
 }

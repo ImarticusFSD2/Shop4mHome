@@ -34,7 +34,7 @@
                         </div>
                       </div>                
       </li>
-      <div style="width: 80px;"></div>
+      <div style="width: 8 0px;"></div>
       <li class="nav-item">
               <a class="nav-link" data-toggle="modal" data-target="#modalLRForm">Login/Signup</a>
             </li>
@@ -54,10 +54,12 @@
                   <div class="dropdown"> 
                       <i class="fas fa-cog" data-toggle="dropdown"></i> 
                 <ul class="dropdown-menu">
+
                     <li><a class="nav-link dropcol" id="col" href="#">Admin</a></li>
                     <li><a class="nav-link dropcol" id="col" routerLink="myprofile">My Profile</a></li>
                     <li><a class="nav-link dropcol" id="col" href="#">About us</a></li>
                     <li><a class="nav-link dropcol" id="col" href="#">Contact us</a></li>
+
                 </ul>
             </div></a>
           </li>
@@ -133,26 +135,39 @@
                   <div style="padding: 9%;">
                     
               <div class="form-group" >
-              <input type="text" class="form-control" placeholder="Enter First Name" style="width: 95%;"> <br>
-              
-              
-              <input type="text" class="form-control" placeholder="Enter Last Name" style="width: 95%;"required><br>
-              <input type="email" class="form-control" placeholder="Enter E-mail" style="width: 95%;"required> <br>
-              <input type="password" class="form-control" placeholder="Enter Password" style="width: 95%;"required> <br>
-              <input type="password" class="form-control" placeholder="Re-enter Password" style="width: 95%;"required> <br>
+              <input type="text" class="form-control" placeholder="Enter First Name" [(ngModel)]="firstname" style="width: 95%;"> <br>  
+              <input type="text" class="form-control" placeholder="Enter Last Name" [(ngModel)]="lastname" style="width: 95%;"required><br>
+              <input type="email" class="form-control" placeholder="Enter E-mail" [(ngModel)]="email" style="width: 95%;"required> <br>
+              <input type="password" class="form-control" placeholder="Enter Password" [(ngModel)]="password" style="width: 95%;"required> <br>
+              <input type="password" class="form-control" placeholder="Re-enter Password" [(ngModel)]="confirmPassword" style="width: 95%;"required> <br>
               </div>
-              <button type="button" href="#"  class="btn btn-primary" style="width: 96%;height: 17%;">Register</button>
+              <button type="button" data-dismiss="modal" (click)="reg()"  class="btn btn-primary" style="width: 96%;height: 17%;">Register</button>
               <Br><br>
+              
                   <hr>
+              
+                  
+              
               </div>
-            </div>
-          </div>
-        </div>  
+              
+              </div>
+              
+              
+              </div>
+              
+              
+              
+              
+              
+              </div>
+
+
+           
       </div>
+      
     </div>
   </div>
 </div>
 
 
   <!--End Registration Form-->
-  

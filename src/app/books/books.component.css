@@ -17,3 +17,9 @@
 #dropdownMenuLink4:hover{
     cursor: pointer;
 }
+.btn .btn-primary{
+    margin-left: 50%; 
+   }
+   #btn_order{
+    margin-left: 18%;
+   }

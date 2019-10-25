@@ -1,1 +1,28 @@
-<p>admin works!</p>
+<input type="button" value="Show user" class="btn btn-primary" (click)="AllEmp()">
+<div class="card">
+    <div class="card-header">
+Admin Portal
+    </div>
+    <div class="card-body">
+        <h4 class="card-title"> User Details</h4>
+        <table class="table table-hover">
+        <thead>
+            <tr>
+                <td>ID</td>
+                <td>First Name</td>
+                <td>Last Name</td>
+                <td>Email</td>
+            </tr>    
+        </thead>    
+        <tbody>
+            <tr *ngFor="let User of Empdata">
+                <td>{{User._id}}</td> 
+                <td>{{User.firstname}}</td>
+                <td>{{User.lastname}}</td>
+                <td>{{User.email}}</td>
+            </tr>
+        </tbody>
+        </table>
+
+    </div>
+</div>

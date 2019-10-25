@@ -1,7 +1,11 @@
 
 .card{
     width:1000px;
-    float:right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
  
  }
  
