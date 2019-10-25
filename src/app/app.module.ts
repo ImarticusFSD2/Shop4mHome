@@ -61,10 +61,20 @@ import { WmComponent } from './electronics/wm/wm.component';
 
 import { FooterComponent } from './footer/footer.component';
 import { OrderComponent } from './order/order.component';
+
 import { GroceriesOrderComponent } from './groceries/groceries-order/groceries-order.component';
 import { SoapBuyComponent } from './groceries/soap-buy/soap-buy.component';
 import { SportsOrderComponent } from './sports/sports-order/sports-order.component';
 import { CricketbatBuyComponent } from './sports/cricketbat-buy/cricketbat-buy.component';
+
+import { FurnitureOrderComponent } from './furniture/furniture-order/furniture-order.component';
+import { FashionOrderComponent } from './fashion/fashion-order/fashion-order.component';
+import { FurnitureCartComponent } from './furniture/furniture-cart/furniture-cart.component';
+import { FashionCartComponent } from './fashion/fashion-cart/fashion-cart.component';
+import { ElecOrderComponent } from './electronics/elec-order/elec-order.component';
+import { ElecCartComponent } from './electronics/elec-cart/elec-cart.component';
+
+
 
 
 
@@ -132,10 +142,20 @@ import { CricketbatBuyComponent } from './sports/cricketbat-buy/cricketbat-buy.c
 
     FooterComponent,
     OrderComponent,
+
     GroceriesOrderComponent,
     SoapBuyComponent,
     SportsOrderComponent,
     CricketbatBuyComponent,
+
+    FurnitureOrderComponent,
+    FashionOrderComponent,
+    FurnitureCartComponent,
+    FashionCartComponent,
+    ElecOrderComponent,
+    ElecCartComponent,
+    
+
   ],
   imports: [
     BrowserModule,

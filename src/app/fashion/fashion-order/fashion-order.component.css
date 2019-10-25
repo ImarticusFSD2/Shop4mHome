@@ -48,3 +48,17 @@ font-size: 12px;
   font-family: 'Times New Roman', Times, serif;
   color: gray;
 }
+#maincon{
+  height: 400px;
+  
+}
+
+.btn .btn-primary{
+ 
+  margin-left: 50%;
+  
+ }
+
+ #btn_order{
+  margin-left: 18%;
+ }

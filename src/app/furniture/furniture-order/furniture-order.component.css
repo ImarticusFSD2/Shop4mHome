@@ -8,12 +8,12 @@
 }
 #overlay:hover {
     display: inline-block;
-    background-image: url('/assets/Phones/mi-redmi-note-7s.jpeg');
+    background-image: url('/assets/img/furniture/2table1.jpg');
     background-repeat: no-repeat;
   }
 
   #feature1:hover ~ .img_order {
-    background-image: url('/assets/Phones/note7fea1.jpeg');
+    background-image: url('/assets/img/furniture/2table1.jpg');
 }
 
 .rate{
@@ -48,3 +48,7 @@ font-size: 12px;
   font-family: 'Times New Roman', Times, serif;
   color: gray;
 }
+
+#btn_order{
+  margin-left: 18%;
+ }

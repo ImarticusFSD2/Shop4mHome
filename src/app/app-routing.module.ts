@@ -55,11 +55,19 @@ import { CricketBatComponent } from './sports/cricket-bat/cricket-bat.component'
 import { CricketKitsComponent } from './sports/cricket-kits/cricket-kits.component';
 import { CyclesComponent } from './sports/cycles/cycles.component';
 import { CyclingAccessoriesComponent } from './sports/cycling-accessories/cycling-accessories.component';
-import { OrderComponent } from './order/order.component';
+import { OrderComponent } from './order/order.component'
 import { GroceriesOrderComponent } from './groceries/groceries-order/groceries-order.component';
 import { SoapBuyComponent } from './groceries/soap-buy/soap-buy.component';
 import { CricketbatBuyComponent } from './sports/cricketbat-buy/cricketbat-buy.component';
 import { SportsOrderComponent } from './sports/sports-order/sports-order.component';
+
+import { FurnitureOrderComponent } from './furniture/furniture-order/furniture-order.component';
+import { FashionOrderComponent } from './fashion/fashion-order/fashion-order.component';
+import { FurnitureCartComponent } from './furniture/furniture-cart/furniture-cart.component';
+import { FashionCartComponent } from './fashion/fashion-cart/fashion-cart.component';
+import { ElecOrderComponent } from './electronics/elec-order/elec-order.component';
+import { ElecCartComponent } from './electronics/elec-cart/elec-cart.component';
+
 
 
 
@@ -81,11 +89,14 @@ const routes: Routes = [
     children:[
       {
         path:'samsung',
-        component:SamsungComponent
+        component:SamsungComponent,
+       
+
       },
       {
         path:'mi',
-        component:MiComponent
+        component:MiComponent,
+        children: [ {path: 'elec-buy', redirectTo: '/elec-order', pathMatch:'full'}]
       },
       {
         path:'hp',
@@ -115,6 +126,16 @@ const routes: Routes = [
     component:CartComponent
   },
   {
+    path:'elec-order',
+    component:ElecOrderComponent,
+    children: [ {path: 'elec-order', redirectTo: '/elec-cart', pathMatch:'full'}]
+  },
+  {
+        path:'elec-cart',
+        component:ElecCartComponent
+      },
+      
+  {
     path:'fashion',
     component:FashionComponent,
     children:[
@@ -137,8 +158,11 @@ const routes: Routes = [
       },
       {
         path:'women-clothing',
-        component:WomenClothingComponent
+        component:WomenClothingComponent,
+        children: [ {path: 'cloth-order', redirectTo: '/fashion-order', pathMatch:'full'}]
+    
       },
+      
       {
         path:'women-accessories',
         component:WomenAccessoriesComponent
@@ -162,6 +186,18 @@ const routes: Routes = [
 
     ]
   },
+  
+  {
+    path:'fashion-order',
+    component:FashionOrderComponent,
+    children: [
+      {path: 'fashion-buy', redirectTo: '/fashion-cart', pathMatch:'full'}
+   ]
+  },
+  {
+    path:'fashion-cart',
+    component:FashionCartComponent
+  },
   {
     path:'books',
     component:BooksComponent
@@ -175,12 +211,16 @@ const routes: Routes = [
     component:CustomerProfileComponent
   },
   {
+    path: 'furniture-cart',
+    component:FurnitureCartComponent
+  },
+  {
 
     path:'furniture',
     component:FurnitureComponent,
     children: [
       {path: 'dining-table', component: DiningTableComponent,
-    children: [ {path: 'dt-order', redirectTo: '/order', pathMatch:'full'}]
+    children: [ {path: 'dt-order', redirectTo: '/furniture-order', pathMatch:'full'}]
     },
       {path: 'double-bed', component: DoubleBedComponent},
       {path: 'home-chair', component: HomeChairComponent},
@@ -189,6 +229,13 @@ const routes: Routes = [
       {path: 'study-table', component: StudyTableComponent},
 
      
+    ]
+  },
+  {
+    path:'furniture-order',
+    component:FurnitureOrderComponent,
+    children: [
+       {path: 'buy-cart', redirectTo: '/furniture-cart', pathMatch:'full'}
     ]
   },
   {
