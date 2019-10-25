@@ -55,13 +55,19 @@ import { CricketBatComponent } from './sports/cricket-bat/cricket-bat.component'
 import { CricketKitsComponent } from './sports/cricket-kits/cricket-kits.component';
 import { CyclesComponent } from './sports/cycles/cycles.component';
 import { CyclingAccessoriesComponent } from './sports/cycling-accessories/cycling-accessories.component';
-import { OrderComponent } from './order/order.component';
+import { OrderComponent } from './order/order.component'
+import { GroceriesOrderComponent } from './groceries/groceries-order/groceries-order.component';
+import { SoapBuyComponent } from './groceries/soap-buy/soap-buy.component';
+import { CricketbatBuyComponent } from './sports/cricketbat-buy/cricketbat-buy.component';
+import { SportsOrderComponent } from './sports/sports-order/sports-order.component';
+
 import { FurnitureOrderComponent } from './furniture/furniture-order/furniture-order.component';
 import { FashionOrderComponent } from './fashion/fashion-order/fashion-order.component';
 import { FurnitureCartComponent } from './furniture/furniture-cart/furniture-cart.component';
 import { FashionCartComponent } from './fashion/fashion-cart/fashion-cart.component';
 import { ElecOrderComponent } from './electronics/elec-order/elec-order.component';
 import { ElecCartComponent } from './electronics/elec-cart/elec-cart.component';
+
 
 
 
@@ -242,13 +248,24 @@ const routes: Routes = [
     path:'groceries',
     component:GroceriesComponent,
     children :[
-      {path: 'soap',component : SoapComponent},
+      {path: 'soap',component : SoapComponent,
+      children: [ {path: 'soap-order', redirectTo: '/groceries-order', pathMatch:'full'}]
+    },
       {path: 'Shampoos',component : ShampoosComponent},
       {path: 'Snacks',component : SnacksComponent},
       {path: 'Packedfood',component : PackedfoodComponent},
       {path: 'Detergents',component : DetergentsComponent},
       {path: 'Repellants',component : RepellantsComponent}
     ]
+  },
+  {
+    path:'groceries-order',
+    component:GroceriesOrderComponent,
+    children: [ {path: 'soap-buyy', redirectTo: '/soap-buy', pathMatch:'full'}]
+  },
+  {
+    path:'soap-buy',
+    component:SoapBuyComponent
   },
   {
     path:'sports',
@@ -264,7 +281,8 @@ const routes: Routes = [
       },
       {
         path:'cricket-bat',
-        component:CricketBatComponent
+        component:CricketBatComponent,
+        children: [ {path: 'cricket-bat-order', redirectTo: '/sports-order', pathMatch:'full'}]
       },
       {
         path:'cricket-kits',
@@ -277,10 +295,18 @@ const routes: Routes = [
       {
         path:'cycling-accessories',
         component:CyclingAccessoriesComponent
-      },
+      }
     ]
-    
-  }
+  },
+    {
+      path:'sports-order',
+      component:SportsOrderComponent,
+      children: [ {path: 'cricketbat-buy', redirectTo: '/cricketbat-buy', pathMatch:'full'}]
+    },
+    {
+      path:'cricketbat-buy',
+      component:CricketbatBuyComponent
+    },
 ];
 
 @NgModule({
