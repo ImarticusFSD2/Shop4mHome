@@ -56,6 +56,18 @@ import { CricketKitsComponent } from './sports/cricket-kits/cricket-kits.compone
 import { CyclesComponent } from './sports/cycles/cycles.component';
 import { CyclingAccessoriesComponent } from './sports/cycling-accessories/cycling-accessories.component';
 import { OrderComponent } from './order/order.component';
+import { ScienceComponent } from './books/science/science.component';
+import { FantasyComponent } from './books/fantasy/fantasy.component';
+import { ReligionComponent } from './books/religion/religion.component';
+import { PhilosophyComponent } from './books/philosophy/philosophy.component';
+import { SchoolComponent } from './books/school/school.component';
+import { EngineerComponent } from './books/engineer/engineer.component';
+import { ComicComponent } from './books/comic/comic.component';
+import { FancyComponent } from './books/fancy/fancy.component';
+import { MythologyComponent } from './books/mythology/mythology.component';
+import { PoetryComponent } from './books/poetry/poetry.component';
+import { BooksOrderComponent } from './books/books-order/books-order.component';
+import { BooksCartComponent } from './books/books-cart/books-cart.component';
 
 
 
@@ -160,8 +172,60 @@ const routes: Routes = [
   },
   {
     path:'books',
-    component:BooksComponent
+    component:BooksComponent,
+    children:[
+      {
+    path:'science',
+    component:ScienceComponent,
+    children: [ {path: 'booksorder', redirectTo: '/books-order', pathMatch:'full'}]
+    },
+    {path:'fantasy',
+    component:FantasyComponent
+
+    },
+    {
+      path:'religion',
+      component:ReligionComponent
+    },
+    {
+      path:'philosophy',
+      component:PhilosophyComponent
+    },
+    {
+      path:'school',
+      component:SchoolComponent
+    },
+    {
+      path:'engineer',
+      component:EngineerComponent
+    },
+    {
+      path:'comic',
+      component:ComicComponent
+    },
+    {
+      path:'fancy',
+      component:FancyComponent
+    },
+    {
+      path:'mythology',
+      component:MythologyComponent
+    },
+    {
+      path:'poetry',
+      component:PoetryComponent
+    }
+  ]
   },
+  {path:'books-order',
+    component:BooksOrderComponent,
+    children: [ {path: 'books-buy', redirectTo: '/books-cart', pathMatch:'full'}]
+
+    },
+    {
+      path:'books-cart',
+      component:BooksCartComponent
+    },
   {
     path:'wishlist',
     component:WishlistComponent
