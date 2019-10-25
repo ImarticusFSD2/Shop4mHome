@@ -61,6 +61,10 @@ import { WmComponent } from './electronics/wm/wm.component';
 
 import { FooterComponent } from './footer/footer.component';
 import { OrderComponent } from './order/order.component';
+import { GroceriesOrderComponent } from './groceries/groceries-order/groceries-order.component';
+import { SoapBuyComponent } from './groceries/soap-buy/soap-buy.component';
+import { SportsOrderComponent } from './sports/sports-order/sports-order.component';
+import { CricketbatBuyComponent } from './sports/cricketbat-buy/cricketbat-buy.component';
 
 
 
@@ -128,6 +132,10 @@ import { OrderComponent } from './order/order.component';
 
     FooterComponent,
     OrderComponent,
+    GroceriesOrderComponent,
+    SoapBuyComponent,
+    SportsOrderComponent,
+    CricketbatBuyComponent,
   ],
   imports: [
     BrowserModule,
