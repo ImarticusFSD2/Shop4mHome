@@ -77,7 +77,7 @@ import { GroceriesOrderComponent } from './groceries/groceries-order/groceries-o
 import { SoapBuyComponent } from './groceries/soap-buy/soap-buy.component';
 import { SportsOrderComponent } from './sports/sports-order/sports-order.component';
 import { CricketbatBuyComponent } from './sports/cricketbat-buy/cricketbat-buy.component';
-
+import{FormsModule} from '@angular/forms';
 import { FurnitureOrderComponent } from './furniture/furniture-order/furniture-order.component';
 import { FashionOrderComponent } from './fashion/fashion-order/fashion-order.component';
 import { FurnitureCartComponent } from './furniture/furniture-cart/furniture-cart.component';
@@ -85,7 +85,7 @@ import { FashionCartComponent } from './fashion/fashion-cart/fashion-cart.compon
 import { ElecOrderComponent } from './electronics/elec-order/elec-order.component';
 import { ElecCartComponent } from './electronics/elec-cart/elec-cart.component';
 import { SamsungComponent } from './electronics/samsung/samsung.component';
-
+import {HttpClientModule} from '@angular/common/http';
 
 
 
@@ -186,7 +186,9 @@ import { SamsungComponent } from './electronics/samsung/samsung.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

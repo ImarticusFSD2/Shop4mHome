@@ -82,6 +82,7 @@ import { FurnitureCartComponent } from './furniture/furniture-cart/furniture-car
 import { FashionCartComponent } from './fashion/fashion-cart/fashion-cart.component';
 import { ElecOrderComponent } from './electronics/elec-order/elec-order.component';
 import { ElecCartComponent } from './electronics/elec-cart/elec-cart.component';
+import { AdminComponent } from './admin/admin.component';
 
 
 
@@ -374,7 +375,12 @@ const routes: Routes = [
       path:'cricketbat-buy',
       component:CricketbatBuyComponent
     },
+    {
+      path:'admin',
+      component:AdminComponent
+     },
 ];
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
