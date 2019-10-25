@@ -48,7 +48,6 @@ import { SnacksComponent } from './groceries/snacks/snacks.component';
 import { PackedfoodComponent } from './groceries/packedfood/packedfood.component';
 import { DetergentsComponent } from './groceries/detergents/detergents.component';
 import { RepellantsComponent } from './groceries/repellants/repellants.component';
-import { SamsungComponent } from './electronics/samsung/samsung.component';
 
 import { MiComponent } from './electronics/mi/mi.component';
 import { HpComponent } from './electronics/hp/hp.component';
@@ -73,6 +72,21 @@ import { SchoolComponent } from './books/school/school.component';
 import { ScienceComponent } from './books/science/science.component';
 import { BooksOrderComponent } from './books/books-order/books-order.component';
 import { BooksCartComponent } from './books/books-cart/books-cart.component';
+
+import { GroceriesOrderComponent } from './groceries/groceries-order/groceries-order.component';
+import { SoapBuyComponent } from './groceries/soap-buy/soap-buy.component';
+import { SportsOrderComponent } from './sports/sports-order/sports-order.component';
+import { CricketbatBuyComponent } from './sports/cricketbat-buy/cricketbat-buy.component';
+
+import { FurnitureOrderComponent } from './furniture/furniture-order/furniture-order.component';
+import { FashionOrderComponent } from './fashion/fashion-order/fashion-order.component';
+import { FurnitureCartComponent } from './furniture/furniture-cart/furniture-cart.component';
+import { FashionCartComponent } from './fashion/fashion-cart/fashion-cart.component';
+import { ElecOrderComponent } from './electronics/elec-order/elec-order.component';
+import { ElecCartComponent } from './electronics/elec-cart/elec-cart.component';
+import { SamsungComponent } from './electronics/samsung/samsung.component';
+
+
 
 
 
@@ -115,7 +129,8 @@ import { BooksCartComponent } from './books/books-cart/books-cart.component';
     PackedfoodComponent,
     DetergentsComponent,
     RepellantsComponent,
-
+    
+    
     SamsungComponent,
     MiComponent,
     HpComponent,
@@ -140,6 +155,7 @@ import { BooksCartComponent } from './books/books-cart/books-cart.component';
 
     FooterComponent,
     OrderComponent,
+
     ComicComponent,
     EngineerComponent,
     FancyComponent,
@@ -152,6 +168,21 @@ import { BooksCartComponent } from './books/books-cart/books-cart.component';
     ScienceComponent,
     BooksOrderComponent,
     BooksCartComponent,
+
+    GroceriesOrderComponent,
+    SoapBuyComponent,
+    SportsOrderComponent,
+    CricketbatBuyComponent,
+
+    FurnitureOrderComponent,
+    FashionOrderComponent,
+    FurnitureCartComponent,
+    FashionCartComponent,
+    ElecOrderComponent,
+    ElecCartComponent,
+    
+
+
   ],
   imports: [
     BrowserModule,
