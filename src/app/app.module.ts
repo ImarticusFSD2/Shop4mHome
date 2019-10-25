@@ -61,6 +61,13 @@ import { WmComponent } from './electronics/wm/wm.component';
 
 import { FooterComponent } from './footer/footer.component';
 import { OrderComponent } from './order/order.component';
+import { FurnitureOrderComponent } from './furniture/furniture-order/furniture-order.component';
+import { FashionOrderComponent } from './fashion/fashion-order/fashion-order.component';
+import { FurnitureCartComponent } from './furniture/furniture-cart/furniture-cart.component';
+import { FashionCartComponent } from './fashion/fashion-cart/fashion-cart.component';
+import { ElecOrderComponent } from './electronics/elec-order/elec-order.component';
+import { ElecCartComponent } from './electronics/elec-cart/elec-cart.component';
+
 
 
 
@@ -128,6 +135,13 @@ import { OrderComponent } from './order/order.component';
 
     FooterComponent,
     OrderComponent,
+    FurnitureOrderComponent,
+    FashionOrderComponent,
+    FurnitureCartComponent,
+    FashionCartComponent,
+    ElecOrderComponent,
+    ElecCartComponent,
+    
   ],
   imports: [
     BrowserModule,

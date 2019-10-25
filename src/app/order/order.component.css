@@ -15,9 +15,7 @@
   #feature1:hover ~ .img_order {
     background-image: url('/assets/Phones/note7fea1.jpeg');
 }
-#btn_order{
- 
-}
+
 .rate{
   font-weight: bolder;
   font-size: 25px;
