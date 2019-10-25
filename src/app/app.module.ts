@@ -60,6 +60,18 @@ import { WmComponent } from './electronics/wm/wm.component';
 
 import { FooterComponent } from './footer/footer.component';
 import { OrderComponent } from './order/order.component';
+import { ComicComponent } from './books/comic/comic.component';
+import { EngineerComponent } from './books/engineer/engineer.component';
+import { FancyComponent } from './books/fancy/fancy.component';
+import { FantasyComponent } from './books/fantasy/fantasy.component';
+import { MythologyComponent } from './books/mythology/mythology.component';
+import { PhilosophyComponent } from './books/philosophy/philosophy.component';
+import { PoetryComponent } from './books/poetry/poetry.component';
+import { ReligionComponent } from './books/religion/religion.component';
+import { SchoolComponent } from './books/school/school.component';
+import { ScienceComponent } from './books/science/science.component';
+import { BooksOrderComponent } from './books/books-order/books-order.component';
+import { BooksCartComponent } from './books/books-cart/books-cart.component';
 
 import { GroceriesOrderComponent } from './groceries/groceries-order/groceries-order.component';
 import { SoapBuyComponent } from './groceries/soap-buy/soap-buy.component';
@@ -144,6 +156,19 @@ import { SamsungComponent } from './electronics/samsung/samsung.component';
     FooterComponent,
     OrderComponent,
 
+    ComicComponent,
+    EngineerComponent,
+    FancyComponent,
+    FantasyComponent,
+    MythologyComponent,
+    PhilosophyComponent,
+    PoetryComponent,
+    ReligionComponent,
+    SchoolComponent,
+    ScienceComponent,
+    BooksOrderComponent,
+    BooksCartComponent,
+
     GroceriesOrderComponent,
     SoapBuyComponent,
     SportsOrderComponent,
@@ -156,6 +181,7 @@ import { SamsungComponent } from './electronics/samsung/samsung.component';
     ElecOrderComponent,
     ElecCartComponent,
     
+
 
   ],
   imports: [
